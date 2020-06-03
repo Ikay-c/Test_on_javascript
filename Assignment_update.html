@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Interest on loan</title>
+    </head>
+    <body>
+     <script>
+       var firstBank = {
+           p: 1000000,
+           rF: 10,
+           t: 24,
+           }
+      var sumFirst = (p*rF*t)/100    
+       
+       console.log(firstBank.sumFirst);
+      var secondBank = {
+           rS: 0.025,
+           n: 12,
+           }
+       var sumSecond = ((p*(1+(rS/n))**(t))-p)
+       
+       console.log(secondBank.sumSecond);
+     </script>   
+     I'd advice him to choose which whose interest is smaller.
+    </body>
+</html>
